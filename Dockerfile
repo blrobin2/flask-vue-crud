@@ -8,7 +8,7 @@ COPY ./client .
 RUN npm run build
 
 # production
-FROM nginx:stable-alpine as production
+FROM nginx:1.22.1-alpine as production
 WORKDIR /app
 RUN apk update && apk add --no-cache python3 && \
     python3 -m ensurepip && \
