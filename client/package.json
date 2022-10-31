@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "axios": "^0.21.1",
+    "axios": "^0.21.3",
     "bootstrap": "^5.0.1",
-    "core-js": "^3.6.5",
+    "core-js": "^3.25.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "zinggrid": "^1.2.5"
