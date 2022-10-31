@@ -11,6 +11,7 @@
 
 <script>
 import axios from 'axios';
+import * as validate from 'uuid-validate';
 
 import Alert from './Alert.vue';
 import MessageMixin from '../MessageMixin';
@@ -33,6 +34,9 @@ export default {
   methods: {
     getBook() {
       const { id } = this.$route.params;
+      if (!validate(id, 4)) {
+        throw new Error('Invalid UUID');
+      }
       const path = `/books/${id}`;
       axios
         .get(path)

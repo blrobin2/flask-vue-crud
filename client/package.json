@@ -12,6 +12,7 @@
     "axios": "^0.21.3",
     "bootstrap": "^5.2.1",
     "core-js": "^3.25.3",
+    "uuid-validate": "^0.0.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "zinggrid": "^1.4.1"
