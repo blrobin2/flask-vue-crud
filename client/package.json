@@ -15,7 +15,7 @@
     "uuid-validate": "^0.0.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
-    "zinggrid": "^1.4.1"
+    "zinggrid": "^1.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
