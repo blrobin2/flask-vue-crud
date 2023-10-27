@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "axios": "^0.21.3",
+    "axios": "^1.6.0",
     "bootstrap": "^5.2.1",
     "core-js": "^3.25.3",
     "uuid-validate": "^0.0.3",
