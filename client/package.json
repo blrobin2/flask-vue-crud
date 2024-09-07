@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "axios": "^0.21.3",
+    "axios": "^1.6.8",
     "bootstrap": "^5.2.1",
     "core-js": "^3.25.3",
     "uuid-validate": "^0.0.3",
-    "vue": "^3.0.0",
+    "vue": "^3.3.5",
     "vue-router": "^4.0.0-0",
     "zinggrid": "^1.4.1"
   },
